@@ -1,6 +1,7 @@
 ---
 name: Docker Actions
 on: [push]
+
 jobs:
   action:
     runs-on: ubuntu-latest
@@ -10,3 +11,5 @@ jobs:
 
       - name: hello-action
         uses: ./.github/actions/hello-world
+        with:
+          firstGreeting: "Learning Lab User"

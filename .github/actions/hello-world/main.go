@@ -7,16 +7,16 @@ import (
 
 func main() {
 
-firstGreeting := os.Getenv("INPUT_FIRSTGREETING")
-secondGreeting := os.Getenv("INPUT_SECONDGREETING")
-thirdGreeting := os.Getenv("INPUT_THIRDGREETING")
+  firstGreeting := os.Getenv("INPUT_FIRSTGREETING")
+  secondGreeting := os.Getenv("INPUT_SECONDGREETING")
+  thirdGreeting := os.Getenv("INPUT_THIRDGREETING")
 
-fmt.Println("Hello " + firstGreeting)
-fmt.Println("Hello " + secondGreeting)
+  fmt.Println("Hello " + firstGreeting)
+  fmt.Println("Hello " + secondGreeting)
 
-if thirdGreeting != "" {
-  fmt.Println("Hello " + thirdGreeting)
-  }
+  if thirdGreeting != "" {
+    fmt.Println("Hello " + thirdGreeting)
+    }
 
 }
 
